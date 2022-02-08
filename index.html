@@ -2,7 +2,45 @@
 <html>
   <head>
     <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="game.js"></script>
   </head>
-  <body></body>
+  <body>
+    <h1>Rock, Paper, Scissors</h1>
+    <div class="new-game">
+      <button class="start">Start new game</button>
+    </div>
+    <div class="turn">
+      <button class="rock">Rock</button>
+      <button class="paper">Paper</button>
+      <button class="scissors">Scissors</button>
+    </div>
+    <ul class="details">
+      <li>
+        <span class="score human"></span>
+        Human
+      </li>
+      <li>
+        <span class="score computer"></span>
+        Computer
+      </li>
+      <li>
+        <span class="score draws"></span>
+        Draws
+      </li>
+    </ul>
+    <div class="result"></div>
+    <div class="scores">
+      <div class="total"></div>
+      <table class="score-table">
+        <thead>
+          <tr>
+            <th>Human</th>
+            <th>Computer</th>
+            <th>Winner</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </body>
 </html>
